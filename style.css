@@ -1,0 +1,79 @@
+body {
+    background: grey;
+}
+
+header {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+	background-color: #242f44;
+	width: 100%;
+    overflow: hidden;
+}
+
+nav ul {
+    text-align: center;
+	list-style-type: none;
+	background-color: #4d6696;
+    margin-right: 20%;
+    margin-left: 20%;
+    overflow: hidden;
+    padding: 2%;
+}
+
+nav li {
+    padding: 2%;
+    display: inline;
+    font-size: large;
+}
+
+a:link {
+   color: white;
+}
+  
+  /* visited link */
+a:visited {
+   color: white;
+}
+  
+  /* mouse over link */
+ a:hover {
+   color: hotpink;
+}
+  
+  /* selected link */
+ a:active {
+   color: white;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+    background-color: #242f44;
+    z-index: 5;
+}
+
+main p {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+/*To center images on page 2*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 10%;
+}
